@@ -1,7 +1,5 @@
-# guest-config-server
-Spring cloud config-server
 
-#Config Server
+# Spring cloud config-server
 
 In order to externalize the micro service configuration, the config server provides a centrol place to store all property files for all the micro services. Instead of hodling 
 the property by the service itself, the service ask the config server to get back the property file.
