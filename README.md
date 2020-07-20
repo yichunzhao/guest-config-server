@@ -13,4 +13,4 @@ Once it finds a new change on the property files, and then it will inform those 
 * Adding spring-could-config-server dependency
 * Define server port number
 * Input git url pointing to the property file location 
-* Set git.force-pull to be true 
+* Set git.force-pull to be true, making sure to refresh config server when making a change.  
