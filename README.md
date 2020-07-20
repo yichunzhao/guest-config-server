@@ -9,6 +9,7 @@ Once it finds a new change on the property files, and then it will inform those 
 
 # Setup cloud config-server
 
+* @EnableConfigServer
 * Adding spring-could-config-server dependency
 * Define server port number
 * Input git rul where property files are stored
