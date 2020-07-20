@@ -1,8 +1,8 @@
 
 # Spring cloud config-server
 
-In order to externalize the micro service configuration, the config server provides a centrol place to store all property files for all the micro services. Instead of hodling 
-the property by the service itself, the service ask the config server to get back the property file.
+In order to externalize the microservice configuration, the config server provides a control place to store all property files for all the microservices. Instead of holding 
+the property by the service itself, the service asks the config server to get back the property file.
 
-The property files are commited in a git repository, and the config server observes on its changes. Once it is modified, the configuration can be picked up and broadcasted to clients.
-
+After committing property files to a git repository, the config server will keep observing its changes. 
+Once it finds a new change on the property files, and then it will inform those config clients.
