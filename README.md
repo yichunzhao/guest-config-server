@@ -77,3 +77,18 @@ spring.cloud.config.uri=http://localhost:9000
 ````  
 
 It uses config server uri to locate the config server, and application name to fetch its own application.properties
+
+
+The full list of applications 
+
+https://github.com/yichunzhao/guest-config-server
+
+https://github.com/yichunzhao/guest-eureka-server
+
+https://github.com/yichunzhao/guest-service
+
+https://github.com/yichunzhao/room-reservation-service
+
+https://github.com/yichunzhao/guest-roomservice
+
+https://github.com/yichunzhao/guest-reservation
